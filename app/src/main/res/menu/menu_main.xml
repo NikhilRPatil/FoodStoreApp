@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:orderInCategory="100"
+        app:showAsAction="collapseActionView"
+        android:title="Home" />
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="100"
+        app:showAsAction="collapseActionView"
+        android:title="About" />
+    <item
+        android:id="@+id/menuItems"
+        android:orderInCategory="100"
+        app:showAsAction="collapseActionView"
+        android:title="Menu List" />
+
+    <item
+        android:id="@+id/settings1"
+        android:orderInCategory="100"
+        app:showAsAction="collapseActionView"
+        android:title="Frouit" />
+
+
+
+
+    <item
+        android:id="@+id/action_settings2"
+        android:orderInCategory="100"
+        android:icon="@drawable/search"
+        app:showAsAction="ifRoom"
+        android:title="search" />
+
+</menu>
